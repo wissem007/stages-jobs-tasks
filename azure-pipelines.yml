@@ -42,7 +42,7 @@ stages:
 - stage: DeployProd
   displayName: Deploy to PROD environment
   pool:
-    vmImage: 'macOS-10.14'
+    vmImage: 'ubuntu-latest'
   jobs:
   - job: DeployFrontendProd
     displayName: Deploy frontend to PROD
